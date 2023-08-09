@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 2000px;
+    padding: 3%;
+    margin: 0 auto;
+    background-image: linear-gradient(#00000001, #00000063); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-image: url('img/fundo.jpg');
+}
+
+#mensagemprincipal{
+    color: white;
+    position:absolute;
+    
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .logo{
+    font-size: 35px;
+    font-style:italic;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color:white;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(6, 6, 238);
+}
+
+#projeto{
+    padding:20px;
+    background-color: rgb(236, 248, 249);
+}
+
+#importancia {
+    padding: 20px;
+    background-color: rgb(6, 141, 169);
+}
+
+#ameaca{
+    padding: 20px;
+    background-color: rgb(236, 248, 249);
+    /*display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-around;*/
+   
+}
+
+#contribuicao{
+    padding: 20px;
+    background-color: rgb(6, 141, 169);
+}
+
+#sobremim{
+    padding: 20px;
+    background-color: rgb(229, 88, 7);
+}
+
+
+.foto{
+    width: 350px;
+   
+}
+
+
+.fotocriadora{
+    width: 200px;
+    border-radius: 1000px;
+}
+
+.colunatexto {
+    width: 40%;
+    
+   
+}
+    
+.colunaimg {
+    width: 40%;
+    padding: 0 5%; 
+}
