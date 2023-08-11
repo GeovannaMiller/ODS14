@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -19,16 +21,35 @@
 
 #mensagemprincipal{
     color: white;
-    position:absolute;
-    
-
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
+button {
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-family: 400;
+    background: linear-gradient(to right, gold, rgb(225,123,0));
+    cursor: pointer;
+}
+
+
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 nav .logo{
@@ -49,7 +70,7 @@ nav ul li{
 nav ul li a{
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 25px;
     color:white;
     border-radius: 30px;
     transition: 0.6s;
@@ -62,6 +83,7 @@ nav ul li a:hover{
 #projeto{
     padding:20px;
     background-color: rgb(236, 248, 249);
+    align-items: center;
 }
 
 #importancia {
@@ -72,12 +94,10 @@ nav ul li a:hover{
 #ameaca{
     padding: 20px;
     background-color: rgb(236, 248, 249);
-    /*display: inline-flex;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: space-around;*/
-   
+    width: 100%;  
+    justify-content: space-around;
+    padding: 20px;
+    /*flex-direction: column;*/  
 }
 
 #contribuicao{
@@ -90,25 +110,63 @@ nav ul li a:hover{
     background-color: rgb(229, 88, 7);
 }
 
-
-.foto{
-    width: 350px;
-   
+.tituloprincipal{
+    font-family: 'Roboto', sans-serif;
 }
 
+.subtituloprincipal{
+    font-family: 'Roboto', sans-serif;
+}
+
+.foto{
+    width: 500px;
+    margin-left: 12%;
+}
 
 .fotocriadora{
     width: 200px;
     border-radius: 1000px;
 }
 
-.colunatexto {
-    width: 40%;
-    
-   
+.container1{
+    display: flex;
+    align-items: center;   
 }
-    
-.colunaimg {
-    width: 40%;
-    padding: 0 5%; 
+
+.container2 {
+    margin-left: 8%;
+    width: 300px;
+    align-items: center;
+}
+
+.texto{
+    text-align: justify; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+.criadora{
+    display: flex;
+    justify-content: left;
+    align-items: left;  
+}
+
+.containercriadora{
+    margin-left: 15px;
+    width: 300px;
+}
+
+.desenvolvido{
+    padding: 10px;
+    background-color: rgb(6, 141, 169);
+    text-align: center;
+}
+
+.creditos{
+    padding-left: 60%;
+    text-align: center;  
 }
